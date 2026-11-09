@@ -22,3 +22,12 @@ Donors should check current materials, charitable status and terms in their own 
 ## Maintenance and unknowns
 
 Revisit source dates and new studies; seek facility-specific, independently verified electricity and direct and indirect water data where available; consider impacts on communities and ecosystems; update organization due diligence and donation links. No actual local impact, AI-specific share, project partnership, or future donation amount is established here.
+
+## Local AI: scope and tradeoffs
+
+Voelori advocates local AI and intends future work on this subject. Moving a given inference from a remote server to a local device shifts that computation, but does not establish a net environmental saving. Device energy, hardware manufacture and lifespan, workload, model, utilization, electricity supply, and remote training or downloads affect comparisons.
+
+- [Guégain and Coignion, The Battery Price of Edge AI (preprint)](https://arxiv.org/abs/2609.11940) compares selected models on two smartphones and a server and reports that batched server inference was more energy-efficient on average in its tested configurations. Its modeled lifecycle conclusions depend on its assumptions and do not settle all device, model or deployment comparisons. It is a preprint, not a universal result.
+- [Chung et al., Where Do the Joules Go? (preprint)](https://arxiv.org/abs/2601.22076) reports substantial inference-energy variation across tasks, hardware and configurations, including utilization. Its server-GPU measurements are not a direct local-versus-cloud comparison.
+
+These sources were reviewed as an initial targeted check, not a comprehensive lifecycle assessment. No quantified saving or universal environmental advantage is claimed.

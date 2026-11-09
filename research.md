@@ -48,3 +48,11 @@ Rechecked the abstract of the mobile/server preprint above and [IEA’s energy-d
 - **Electricity illustration:** adds an idle baseline (additional kWh = max(average W − idle W, 0) × hours ÷ 1,000) and a yearly total (× sessions per week × 52). Defaults (50 W, 10 W idle, 30 minutes, 5 sessions) are arbitrary examples, not device data. A note describes how to measure with a plug-in meter instead.
 - **Workload explorer:** adds "Answer questions about recent events" as an example of a remaining remote dependency (retrieval of current information).
 - **Hardening:** a Content-Security-Policy meta tag limits scripts, styles and images to the site's own files; scripts write content with `textContent` only.
+
+## Polish pass (9 November 2026)
+
+- **Structure:** sections are numbered 01–07 in page order, and the navigation links to the water pathway and the local-AI section. `index.html` and `styles.css` were reformatted for readability without changing the rendered page.
+- **Local AI summary:** "What running locally can change" and "What stays in the picture" restate points already made in the section and the comparison tool. Keeping data on the device applies only when processing truly stays local; it is a privacy point, not an environmental claim.
+- **New action, "Try local tools where they fit":** a practical suggestion consistent with Voelori's owner-provided advocacy. It claims no saving and notes that new hardware adds manufacturing impacts and that some tasks suit shared infrastructure better.
+- **Sources:** the page's source list now also includes the IEA energy-demand chapter and the two preprints already reviewed above (Guégain and Coignion; Chung et al.).
+- **Key terms:** short general definitions (watt, kilowatt-hour, training, inference, local AI, utilization, manufacturing impacts, withdrawal and consumption). They are explanatory, not drawn from a single source, and contain no figures beyond unit definitions.

@@ -1,18 +1,3 @@
-const motionPreference = window.matchMedia('(prefers-reduced-motion: reduce)');
-const motionButton = document.querySelector('.motion-toggle');
-const rings = document.querySelector('.rings');
-let paused = motionPreference.matches;
-function updateMotion() {
-  rings.style.animationPlayState = paused ? 'paused' : 'running';
-  motionButton.textContent = motionPreference.matches ? 'Reduced motion enabled' : paused ? 'Resume spiral' : 'Pause spiral';
-  motionButton.disabled = motionPreference.matches;
-  motionButton.setAttribute('aria-pressed', String(paused));
-}
-motionButton.hidden = false;
-motionButton.addEventListener('click', () => { paused = !paused; updateMotion(); });
-motionPreference.addEventListener('change', () => { paused = motionPreference.matches; updateMotion(); });
-updateMotion();
-
 const workloads = {
   notes: ['Summarize a short set of notes', 'A smaller local model may be suitable if it fits your device and produces a reliable summary. Check the result against the original notes.', 'Output quality, memory needs, time to finish and electricity for the same task. Confirm that the app actually processes locally.'],
   audio: ['Transcribe an audio recording', 'On-device speech recognition may suit a supported language and recording. Check names, accents and difficult audio against the original.', 'Accuracy, processing time and device power for the same recording. Offline processing still uses energy, and some apps send audio to a server.'],

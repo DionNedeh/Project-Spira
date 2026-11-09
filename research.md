@@ -31,3 +31,9 @@ Voelori advocates local AI and intends future work on this subject. Moving a giv
 - [Chung et al., Where Do the Joules Go? (preprint)](https://arxiv.org/abs/2601.22076) reports substantial inference-energy variation across tasks, hardware and configurations, including utilization. Its server-GPU measurements are not a direct local-versus-cloud comparison.
 
 These sources were reviewed as an initial targeted check, not a comprehensive lifecycle assessment. No quantified saving or universal environmental advantage is claimed.
+
+## Educational interactions (9 November 2026)
+
+The workload explorer gives qualitative decision prompts, not measured recommendations or environmental rankings. The device-energy illustration uses kWh = average watts × minutes / 60 / 1,000. Defaults and slider bounds are illustrative, not device benchmarks. Its boundary excludes embodied impacts, remote services and additional room cooling; it distinguishes whole-device power from incremental AI energy. No carbon, water or cloud-saving conversion is made.
+
+Rechecked the abstract of the mobile/server preprint above and [IEA’s energy-demand chapter](https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai) for the added discussion. The abstract supports a bounded comparison of selected smartphone/server configurations, not a general conclusion about every local workload. IEA describes server, networking, storage and cooling electricity. Workload suitability examples and the recommendation to compare equal-quality outcomes are practical inferences; no device or provider benchmark was run. Voelori’s advocacy and planned work are owner-provided statements, not research findings.
